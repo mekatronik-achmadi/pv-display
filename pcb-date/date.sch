@@ -1,0 +1,514 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X08 P1
+U 1 1 566EBE70
+P 3750 2300
+F 0 "P1" H 3750 2750 50  0000 C CNN
+F 1 "CONN_02X08" V 3750 2300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 3750 1100 60  0001 C CNN
+F 3 "" H 3750 1100 60  0000 C CNN
+	1    3750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR01
+U 1 1 566EBF8E
+P 3400 1950
+F 0 "#PWR01" H 3400 1800 50  0001 C CNN
+F 1 "VCC" H 3400 2100 50  0000 C CNN
+F 2 "" H 3400 1950 60  0000 C CNN
+F 3 "" H 3400 1950 60  0000 C CNN
+	1    3400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 566EBFE3
+P 4150 2650
+F 0 "#PWR02" H 4150 2400 50  0001 C CNN
+F 1 "GND" H 4150 2500 50  0000 C CNN
+F 2 "" H 4150 2650 60  0000 C CNN
+F 3 "" H 4150 2650 60  0000 C CNN
+	1    4150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTS-6980HR AFF1
+U 1 1 566EC076
+P 5950 2450
+F 0 "AFF1" H 5950 3000 60  0000 C CNN
+F 1 "LTS-6980HR" H 5950 2000 60  0000 C CNN
+F 2 "SparkFun:SparkFun-7-SEGMENT-1%22PTH" H 5950 2450 60  0001 C CNN
+F 3 "" H 5950 2450 60  0000 C CNN
+	1    5950 2450
+	1    0    0    -1  
+$EndComp
+Text Label 5200 2050 0    60   ~ 0
+LA
+Text Label 5200 2150 0    60   ~ 0
+LB
+Text Label 5200 2250 0    60   ~ 0
+LC
+Text Label 5200 2350 0    60   ~ 0
+LD
+Text Label 5200 2450 0    60   ~ 0
+LE
+Text Label 5200 2550 0    60   ~ 0
+LF
+Text Label 5200 2650 0    60   ~ 0
+LG
+Text Label 4150 1950 0    60   ~ 0
+LE
+Text Label 4150 2050 0    60   ~ 0
+LD
+Text Label 4150 2150 0    60   ~ 0
+LC
+Text Label 4150 2250 0    60   ~ 0
+LB
+Text Label 4150 2350 0    60   ~ 0
+LA
+Text Label 4150 2450 0    60   ~ 0
+LG
+Text Label 4150 2550 0    60   ~ 0
+LF
+$Comp
+L PC817 U1
+U 1 1 566EC52C
+P 7000 2200
+F 0 "U1" H 6800 2400 50  0000 L CNN
+F 1 "PC817" H 7000 2400 50  0000 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm" H 6800 2000 50  0000 L CIN
+F 3 "" H 7000 2200 50  0000 L CNN
+	1    7000 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 566EC63D
+P 6600 2300
+F 0 "#PWR03" H 6600 2050 50  0001 C CNN
+F 1 "GND" H 6600 2150 50  0000 C CNN
+F 2 "" H 6600 2300 60  0000 C CNN
+F 3 "" H 6600 2300 60  0000 C CNN
+	1    6600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTS-6980HR AFF2
+U 1 1 566ED424
+P 5950 3550
+F 0 "AFF2" H 5950 4100 60  0000 C CNN
+F 1 "LTS-6980HR" H 5950 3100 60  0000 C CNN
+F 2 "SparkFun:SparkFun-7-SEGMENT-1%22PTH" H 5950 3550 60  0001 C CNN
+F 3 "" H 5950 3550 60  0000 C CNN
+	1    5950 3550
+	1    0    0    -1  
+$EndComp
+Text Label 5200 3150 0    60   ~ 0
+LA
+Text Label 5200 3250 0    60   ~ 0
+LB
+Text Label 5200 3350 0    60   ~ 0
+LC
+Text Label 5200 3450 0    60   ~ 0
+LD
+Text Label 5200 3550 0    60   ~ 0
+LE
+Text Label 5200 3650 0    60   ~ 0
+LF
+Text Label 5200 3750 0    60   ~ 0
+LG
+$Comp
+L PC817 U2
+U 1 1 566ED438
+P 7000 3300
+F 0 "U2" H 6800 3500 50  0000 L CNN
+F 1 "PC817" H 7000 3500 50  0000 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm" H 6800 3100 50  0000 L CIN
+F 3 "" H 7000 3300 50  0000 L CNN
+	1    7000 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 566ED440
+P 6600 3400
+F 0 "#PWR04" H 6600 3150 50  0001 C CNN
+F 1 "GND" H 6600 3250 50  0000 C CNN
+F 2 "" H 6600 3400 60  0000 C CNN
+F 3 "" H 6600 3400 60  0000 C CNN
+	1    6600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 566ED448
+P 7400 3050
+F 0 "R2" V 7480 3050 50  0000 C CNN
+F 1 "330" V 7400 3050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7330 3050 30  0001 C CNN
+F 3 "" H 7400 3050 30  0000 C CNN
+	1    7400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 566ED44F
+P 7400 2850
+F 0 "#PWR05" H 7400 2700 50  0001 C CNN
+F 1 "VCC" H 7400 3000 50  0000 C CNN
+F 2 "" H 7400 2850 60  0000 C CNN
+F 3 "" H 7400 2850 60  0000 C CNN
+	1    7400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTS-6980HR AFF3
+U 1 1 566ED5F9
+P 5950 4650
+F 0 "AFF3" H 5950 5200 60  0000 C CNN
+F 1 "LTS-6980HR" H 5950 4200 60  0000 C CNN
+F 2 "SparkFun:SparkFun-7-SEGMENT-1%22PTH" H 5950 4650 60  0001 C CNN
+F 3 "" H 5950 4650 60  0000 C CNN
+	1    5950 4650
+	1    0    0    -1  
+$EndComp
+Text Label 5200 4250 0    60   ~ 0
+LA
+Text Label 5200 4350 0    60   ~ 0
+LB
+Text Label 5200 4450 0    60   ~ 0
+LC
+Text Label 5200 4550 0    60   ~ 0
+LD
+Text Label 5200 4650 0    60   ~ 0
+LE
+Text Label 5200 4750 0    60   ~ 0
+LF
+Text Label 5200 4850 0    60   ~ 0
+LG
+$Comp
+L PC817 U3
+U 1 1 566ED60D
+P 7000 4400
+F 0 "U3" H 6800 4600 50  0000 L CNN
+F 1 "PC817" H 7000 4600 50  0000 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm" H 6800 4200 50  0000 L CIN
+F 3 "" H 7000 4400 50  0000 L CNN
+	1    7000 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 566ED615
+P 6600 4500
+F 0 "#PWR06" H 6600 4250 50  0001 C CNN
+F 1 "GND" H 6600 4350 50  0000 C CNN
+F 2 "" H 6600 4500 60  0000 C CNN
+F 3 "" H 6600 4500 60  0000 C CNN
+	1    6600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 566ED61D
+P 7400 4150
+F 0 "R3" V 7480 4150 50  0000 C CNN
+F 1 "330" V 7400 4150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7330 4150 30  0001 C CNN
+F 3 "" H 7400 4150 30  0000 C CNN
+	1    7400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR07
+U 1 1 566ED624
+P 7400 3950
+F 0 "#PWR07" H 7400 3800 50  0001 C CNN
+F 1 "VCC" H 7400 4100 50  0000 C CNN
+F 2 "" H 7400 3950 60  0000 C CNN
+F 3 "" H 7400 3950 60  0000 C CNN
+	1    7400 3950
+	1    0    0    -1  
+$EndComp
+Text Label 3300 2650 0    60   ~ 0
+DA
+Text Label 3300 2550 0    60   ~ 0
+DB
+Text Label 3300 2450 0    60   ~ 0
+DC
+Text Label 7450 2300 0    60   ~ 0
+DC
+Text Label 7450 3400 0    60   ~ 0
+DB
+Text Label 7450 4500 0    60   ~ 0
+DA
+Wire Wire Line
+	4150 2650 4000 2650
+Wire Wire Line
+	3500 1950 3400 1950
+Wire Wire Line
+	5350 2050 5200 2050
+Wire Wire Line
+	5350 2150 5200 2150
+Wire Wire Line
+	5350 2250 5200 2250
+Wire Wire Line
+	5350 2350 5200 2350
+Wire Wire Line
+	5350 2450 5200 2450
+Wire Wire Line
+	5350 2550 5200 2550
+Wire Wire Line
+	5350 2650 5200 2650
+Wire Wire Line
+	4000 1950 4150 1950
+Wire Wire Line
+	4000 2050 4150 2050
+Wire Wire Line
+	4000 2150 4150 2150
+Wire Wire Line
+	4000 2250 4150 2250
+Wire Wire Line
+	4000 2350 4150 2350
+Wire Wire Line
+	4000 2450 4150 2450
+Wire Wire Line
+	4000 2550 4150 2550
+Wire Wire Line
+	6550 2000 6550 2100
+Wire Wire Line
+	6550 2100 6700 2100
+Wire Wire Line
+	6700 2300 6600 2300
+Wire Wire Line
+	7400 2100 7300 2100
+Wire Wire Line
+	5350 3150 5200 3150
+Wire Wire Line
+	5350 3250 5200 3250
+Wire Wire Line
+	5350 3350 5200 3350
+Wire Wire Line
+	5350 3450 5200 3450
+Wire Wire Line
+	5350 3550 5200 3550
+Wire Wire Line
+	5350 3650 5200 3650
+Wire Wire Line
+	5350 3750 5200 3750
+Wire Wire Line
+	6550 3100 6550 3200
+Wire Wire Line
+	6550 3200 6700 3200
+Wire Wire Line
+	6700 3400 6600 3400
+Wire Wire Line
+	7300 3400 7450 3400
+Wire Wire Line
+	7400 3200 7300 3200
+Wire Wire Line
+	7400 2850 7400 2900
+Wire Wire Line
+	5350 4250 5200 4250
+Wire Wire Line
+	5350 4350 5200 4350
+Wire Wire Line
+	5350 4450 5200 4450
+Wire Wire Line
+	5350 4550 5200 4550
+Wire Wire Line
+	5350 4650 5200 4650
+Wire Wire Line
+	5350 4750 5200 4750
+Wire Wire Line
+	5350 4850 5200 4850
+Wire Wire Line
+	6550 4200 6550 4300
+Wire Wire Line
+	6550 4300 6700 4300
+Wire Wire Line
+	6700 4500 6600 4500
+Wire Wire Line
+	7300 4500 7450 4500
+Wire Wire Line
+	7400 4300 7300 4300
+Wire Wire Line
+	7400 3950 7400 4000
+Wire Wire Line
+	3500 2650 3300 2650
+Wire Wire Line
+	3500 2550 3300 2550
+Wire Wire Line
+	3500 2450 3300 2450
+Wire Wire Line
+	7300 2300 7450 2300
+Wire Wire Line
+	3500 2350 3300 2350
+Text Label 3300 2350 0    60   ~ 0
+DD
+$Comp
+L LTS-6980HR AFF4
+U 1 1 566F6176
+P 5950 1450
+F 0 "AFF4" H 5950 2000 60  0000 C CNN
+F 1 "LTS-6980HR" H 5950 1000 60  0000 C CNN
+F 2 "SparkFun:SparkFun-7-SEGMENT-1%22PTH" H 5950 1450 60  0001 C CNN
+F 3 "" H 5950 1450 60  0000 C CNN
+	1    5950 1450
+	1    0    0    -1  
+$EndComp
+Text Label 5200 1050 0    60   ~ 0
+LA
+Text Label 5200 1150 0    60   ~ 0
+LB
+Text Label 5200 1250 0    60   ~ 0
+LC
+Text Label 5200 1350 0    60   ~ 0
+LD
+Text Label 5200 1450 0    60   ~ 0
+LE
+Text Label 5200 1550 0    60   ~ 0
+LF
+Text Label 5200 1650 0    60   ~ 0
+LG
+$Comp
+L PC817 U4
+U 1 1 566F6183
+P 7000 1200
+F 0 "U4" H 6800 1400 50  0000 L CNN
+F 1 "PC817" H 7000 1400 50  0000 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm" H 6800 1000 50  0000 L CIN
+F 3 "" H 7000 1200 50  0000 L CNN
+	1    7000 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 566F6189
+P 6600 1300
+F 0 "#PWR08" H 6600 1050 50  0001 C CNN
+F 1 "GND" H 6600 1150 50  0000 C CNN
+F 2 "" H 6600 1300 60  0000 C CNN
+F 3 "" H 6600 1300 60  0000 C CNN
+	1    6600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 566F618F
+P 7400 950
+F 0 "R4" V 7480 950 50  0000 C CNN
+F 1 "330" V 7400 950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7330 950 30  0001 C CNN
+F 3 "" H 7400 950 30  0000 C CNN
+	1    7400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR09
+U 1 1 566F6195
+P 7400 750
+F 0 "#PWR09" H 7400 600 50  0001 C CNN
+F 1 "VCC" H 7400 900 50  0000 C CNN
+F 2 "" H 7400 750 60  0000 C CNN
+F 3 "" H 7400 750 60  0000 C CNN
+	1    7400 750 
+	1    0    0    -1  
+$EndComp
+Text Label 7450 1300 0    60   ~ 0
+DD
+Wire Wire Line
+	5350 1050 5200 1050
+Wire Wire Line
+	5350 1150 5200 1150
+Wire Wire Line
+	5350 1250 5200 1250
+Wire Wire Line
+	5350 1350 5200 1350
+Wire Wire Line
+	5350 1450 5200 1450
+Wire Wire Line
+	5350 1550 5200 1550
+Wire Wire Line
+	6550 1000 6550 1100
+Wire Wire Line
+	6550 1100 6700 1100
+Wire Wire Line
+	6700 1300 6600 1300
+Wire Wire Line
+	7400 1100 7300 1100
+Wire Wire Line
+	7400 750  7400 800 
+Wire Wire Line
+	7300 1300 7450 1300
+Wire Wire Line
+	7400 1750 7400 1800
+$Comp
+L R R1
+U 1 1 566ECAF8
+P 7400 1950
+F 0 "R1" V 7480 1950 50  0000 C CNN
+F 1 "330" V 7400 1950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7330 1950 30  0001 C CNN
+F 3 "" H 7400 1950 30  0000 C CNN
+	1    7400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR010
+U 1 1 566ECBBB
+P 7400 1750
+F 0 "#PWR010" H 7400 1600 50  0001 C CNN
+F 1 "VCC" H 7400 1900 50  0000 C CNN
+F 2 "" H 7400 1750 60  0000 C CNN
+F 3 "" H 7400 1750 60  0000 C CNN
+	1    7400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1650 5200 1650
+$EndSCHEMATC

@@ -1,0 +1,413 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X08 P1
+U 1 1 566EBE70
+P 3750 2300
+F 0 "P1" H 3750 2750 50  0000 C CNN
+F 1 "CONN_02X08" V 3750 2300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 3750 1100 60  0001 C CNN
+F 3 "" H 3750 1100 60  0000 C CNN
+	1    3750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR01
+U 1 1 566EBF8E
+P 3400 1950
+F 0 "#PWR01" H 3400 1800 50  0001 C CNN
+F 1 "VCC" H 3400 2100 50  0000 C CNN
+F 2 "" H 3400 1950 60  0000 C CNN
+F 3 "" H 3400 1950 60  0000 C CNN
+	1    3400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 566EBFE3
+P 4150 2650
+F 0 "#PWR02" H 4150 2400 50  0001 C CNN
+F 1 "GND" H 4150 2500 50  0000 C CNN
+F 2 "" H 4150 2650 60  0000 C CNN
+F 3 "" H 4150 2650 60  0000 C CNN
+	1    4150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTS-6980HR AFF1
+U 1 1 566EC076
+P 6000 2300
+F 0 "AFF1" H 6000 2850 60  0000 C CNN
+F 1 "LTS-6980HR" H 6000 1850 60  0000 C CNN
+F 2 "Displays_7-Segment:7SegmentLED_LTS6760_LTS6780" H 6000 2300 60  0001 C CNN
+F 3 "" H 6000 2300 60  0000 C CNN
+	1    6000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2650 4000 2650
+Wire Wire Line
+	3500 1950 3400 1950
+Wire Wire Line
+	5400 1900 5250 1900
+Wire Wire Line
+	5400 2000 5250 2000
+Wire Wire Line
+	5400 2100 5250 2100
+Wire Wire Line
+	5400 2200 5250 2200
+Wire Wire Line
+	5400 2300 5250 2300
+Wire Wire Line
+	5400 2400 5250 2400
+Wire Wire Line
+	5400 2500 5250 2500
+Text Label 5250 1900 0    60   ~ 0
+LA
+Text Label 5250 2000 0    60   ~ 0
+LB
+Text Label 5250 2100 0    60   ~ 0
+LC
+Text Label 5250 2200 0    60   ~ 0
+LD
+Text Label 5250 2300 0    60   ~ 0
+LE
+Text Label 5250 2400 0    60   ~ 0
+LF
+Text Label 5250 2500 0    60   ~ 0
+LG
+Wire Wire Line
+	4000 1950 4150 1950
+Wire Wire Line
+	4000 2050 4150 2050
+Wire Wire Line
+	4000 2150 4150 2150
+Wire Wire Line
+	4000 2250 4150 2250
+Wire Wire Line
+	4000 2350 4150 2350
+Wire Wire Line
+	4000 2450 4150 2450
+Wire Wire Line
+	4000 2550 4150 2550
+Text Label 4150 1950 0    60   ~ 0
+LE
+Text Label 4150 2050 0    60   ~ 0
+LD
+Text Label 4150 2150 0    60   ~ 0
+LC
+Text Label 4150 2250 0    60   ~ 0
+LB
+Text Label 4150 2350 0    60   ~ 0
+LA
+Text Label 4150 2450 0    60   ~ 0
+LG
+Text Label 4150 2550 0    60   ~ 0
+LF
+$Comp
+L PC817 U1
+U 1 1 566EC52C
+P 7050 2050
+F 0 "U1" H 6850 2250 50  0000 L CNN
+F 1 "PC817" H 7050 2250 50  0000 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm" H 6850 1850 50  0000 L CIN
+F 3 "" H 7050 2050 50  0000 L CNN
+	1    7050 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1850 6600 1950
+Wire Wire Line
+	6600 1950 6750 1950
+$Comp
+L GND #PWR03
+U 1 1 566EC63D
+P 6650 2150
+F 0 "#PWR03" H 6650 1900 50  0001 C CNN
+F 1 "GND" H 6650 2000 50  0000 C CNN
+F 2 "" H 6650 2150 60  0000 C CNN
+F 3 "" H 6650 2150 60  0000 C CNN
+	1    6650 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2150 6650 2150
+$Comp
+L R R1
+U 1 1 566ECAF8
+P 7450 1800
+F 0 "R1" V 7530 1800 50  0000 C CNN
+F 1 "330" V 7450 1800 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7380 1800 30  0001 C CNN
+F 3 "" H 7450 1800 30  0000 C CNN
+	1    7450 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1950 7350 1950
+$Comp
+L VCC #PWR04
+U 1 1 566ECBBB
+P 7450 1600
+F 0 "#PWR04" H 7450 1450 50  0001 C CNN
+F 1 "VCC" H 7450 1750 50  0000 C CNN
+F 2 "" H 7450 1600 60  0000 C CNN
+F 3 "" H 7450 1600 60  0000 C CNN
+	1    7450 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1600 7450 1650
+$Comp
+L LTS-6980HR AFF2
+U 1 1 566ED424
+P 6000 3400
+F 0 "AFF2" H 6000 3950 60  0000 C CNN
+F 1 "LTS-6980HR" H 6000 2950 60  0000 C CNN
+F 2 "Displays_7-Segment:7SegmentLED_LTS6760_LTS6780" H 6000 3400 60  0001 C CNN
+F 3 "" H 6000 3400 60  0000 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3000 5250 3000
+Wire Wire Line
+	5400 3100 5250 3100
+Wire Wire Line
+	5400 3200 5250 3200
+Wire Wire Line
+	5400 3300 5250 3300
+Wire Wire Line
+	5400 3400 5250 3400
+Wire Wire Line
+	5400 3500 5250 3500
+Wire Wire Line
+	5400 3600 5250 3600
+Text Label 5250 3000 0    60   ~ 0
+LA
+Text Label 5250 3100 0    60   ~ 0
+LB
+Text Label 5250 3200 0    60   ~ 0
+LC
+Text Label 5250 3300 0    60   ~ 0
+LD
+Text Label 5250 3400 0    60   ~ 0
+LE
+Text Label 5250 3500 0    60   ~ 0
+LF
+Text Label 5250 3600 0    60   ~ 0
+LG
+$Comp
+L PC817 U2
+U 1 1 566ED438
+P 7050 3150
+F 0 "U2" H 6850 3350 50  0000 L CNN
+F 1 "PC817" H 7050 3350 50  0000 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm" H 6850 2950 50  0000 L CIN
+F 3 "" H 7050 3150 50  0000 L CNN
+	1    7050 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2950 6600 3050
+Wire Wire Line
+	6600 3050 6750 3050
+$Comp
+L GND #PWR05
+U 1 1 566ED440
+P 6650 3250
+F 0 "#PWR05" H 6650 3000 50  0001 C CNN
+F 1 "GND" H 6650 3100 50  0000 C CNN
+F 2 "" H 6650 3250 60  0000 C CNN
+F 3 "" H 6650 3250 60  0000 C CNN
+	1    6650 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3250 6650 3250
+Wire Wire Line
+	7350 3250 7500 3250
+$Comp
+L R R2
+U 1 1 566ED448
+P 7450 2900
+F 0 "R2" V 7530 2900 50  0000 C CNN
+F 1 "330" V 7450 2900 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7380 2900 30  0001 C CNN
+F 3 "" H 7450 2900 30  0000 C CNN
+	1    7450 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3050 7350 3050
+$Comp
+L VCC #PWR06
+U 1 1 566ED44F
+P 7450 2700
+F 0 "#PWR06" H 7450 2550 50  0001 C CNN
+F 1 "VCC" H 7450 2850 50  0000 C CNN
+F 2 "" H 7450 2700 60  0000 C CNN
+F 3 "" H 7450 2700 60  0000 C CNN
+	1    7450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2700 7450 2750
+$Comp
+L LTS-6980HR AFF3
+U 1 1 566ED5F9
+P 6000 4500
+F 0 "AFF3" H 6000 5050 60  0000 C CNN
+F 1 "LTS-6980HR" H 6000 4050 60  0000 C CNN
+F 2 "Displays_7-Segment:7SegmentLED_LTS6760_LTS6780" H 6000 4500 60  0001 C CNN
+F 3 "" H 6000 4500 60  0000 C CNN
+	1    6000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4100 5250 4100
+Wire Wire Line
+	5400 4200 5250 4200
+Wire Wire Line
+	5400 4300 5250 4300
+Wire Wire Line
+	5400 4400 5250 4400
+Wire Wire Line
+	5400 4500 5250 4500
+Wire Wire Line
+	5400 4600 5250 4600
+Wire Wire Line
+	5400 4700 5250 4700
+Text Label 5250 4100 0    60   ~ 0
+LA
+Text Label 5250 4200 0    60   ~ 0
+LB
+Text Label 5250 4300 0    60   ~ 0
+LC
+Text Label 5250 4400 0    60   ~ 0
+LD
+Text Label 5250 4500 0    60   ~ 0
+LE
+Text Label 5250 4600 0    60   ~ 0
+LF
+Text Label 5250 4700 0    60   ~ 0
+LG
+$Comp
+L PC817 U3
+U 1 1 566ED60D
+P 7050 4250
+F 0 "U3" H 6850 4450 50  0000 L CNN
+F 1 "PC817" H 7050 4450 50  0000 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm" H 6850 4050 50  0000 L CIN
+F 3 "" H 7050 4250 50  0000 L CNN
+	1    7050 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4050 6600 4150
+Wire Wire Line
+	6600 4150 6750 4150
+$Comp
+L GND #PWR07
+U 1 1 566ED615
+P 6650 4350
+F 0 "#PWR07" H 6650 4100 50  0001 C CNN
+F 1 "GND" H 6650 4200 50  0000 C CNN
+F 2 "" H 6650 4350 60  0000 C CNN
+F 3 "" H 6650 4350 60  0000 C CNN
+	1    6650 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4350 6650 4350
+Wire Wire Line
+	7350 4350 7500 4350
+$Comp
+L R R3
+U 1 1 566ED61D
+P 7450 4000
+F 0 "R3" V 7530 4000 50  0000 C CNN
+F 1 "330" V 7450 4000 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7380 4000 30  0001 C CNN
+F 3 "" H 7450 4000 30  0000 C CNN
+	1    7450 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4150 7350 4150
+$Comp
+L VCC #PWR08
+U 1 1 566ED624
+P 7450 3800
+F 0 "#PWR08" H 7450 3650 50  0001 C CNN
+F 1 "VCC" H 7450 3950 50  0000 C CNN
+F 2 "" H 7450 3800 60  0000 C CNN
+F 3 "" H 7450 3800 60  0000 C CNN
+	1    7450 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3800 7450 3850
+Wire Wire Line
+	3500 2650 3300 2650
+Wire Wire Line
+	3500 2550 3300 2550
+Text Label 3300 2650 0    60   ~ 0
+DA
+Text Label 3300 2550 0    60   ~ 0
+DB
+Wire Wire Line
+	3500 2450 3300 2450
+Text Label 3300 2450 0    60   ~ 0
+DC
+Wire Wire Line
+	7350 2150 7500 2150
+Text Label 7500 2150 0    60   ~ 0
+DC
+Text Label 7500 3250 0    60   ~ 0
+DB
+Text Label 7500 4350 0    60   ~ 0
+DA
+$EndSCHEMATC

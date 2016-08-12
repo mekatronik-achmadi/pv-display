@@ -1,4 +1,4 @@
-update=Thu 21 Jul 2016 04:34:44 PM WIB
+update=Wed 10 Aug 2016 02:21:28 PM WIB
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,9 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/usr/share/kicad/eagle-lbr-imported/eagle/lib/45xx
-LibName31=/usr/share/kicad/eagle-lbr-imported/eagle/lib/national-semiconductor
+LibName30=SparkFun
+LibName31=stm32
+LibName32=/usr/share/kicad/eagle-lbr-imported/eagle/lib/SparkFun-Boards
+LibName33=/usr/share/kicad/eagle-lbr-imported/eagle/lib/45xx
+LibName34=/usr/share/kicad/eagle-lbr-imported/eagle/lib/switch-omron
+LibName35=/usr/share/kicad/eagle-lbr-imported/eagle/lib/national-semiconductor

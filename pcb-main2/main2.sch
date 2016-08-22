@@ -1023,4 +1023,52 @@ Wire Wire Line
 	5550 5850 5800 5850
 Text Label 5800 5850 0    60   ~ 0
 LF
+Wire Wire Line
+	5550 6550 5750 6550
+Wire Wire Line
+	5550 6650 5750 6650
+Wire Wire Line
+	5550 6750 5750 6750
+Wire Wire Line
+	5550 6850 5750 6850
+Text Label 5750 6550 0    60   ~ 0
+D2-A
+Text Label 5750 6650 0    60   ~ 0
+D2-B
+Text Label 5750 6750 0    60   ~ 0
+D2-C
+Text Label 5750 6850 0    60   ~ 0
+D2-D
+Wire Wire Line
+	2550 5950 2300 5950
+Wire Wire Line
+	2550 6050 2300 6050
+Wire Wire Line
+	2550 6150 2300 6150
+Wire Wire Line
+	2550 6250 2300 6250
+Text Label 2300 5950 0    60   ~ 0
+D1-A
+Text Label 2300 6050 0    60   ~ 0
+D1-B
+Text Label 2300 6150 0    60   ~ 0
+D1-C
+Text Label 2300 6250 0    60   ~ 0
+D1-D
+Wire Wire Line
+	5550 5050 5800 5050
+Wire Wire Line
+	5550 5150 5800 5150
+Wire Wire Line
+	2300 6350 2550 6350
+Wire Wire Line
+	2550 6450 2300 6450
+Text Label 2300 6350 0    60   ~ 0
+D3-C
+Text Label 2300 6450 0    60   ~ 0
+D3-D
+Text Label 5800 5050 0    60   ~ 0
+D3-A
+Text Label 5800 5150 0    60   ~ 0
+D3-B
 $EndSCHEMATC
